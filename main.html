@@ -13,15 +13,21 @@
 
     <label for="email">Email</label><br>
     <input id ="email" type="Email" placeholder="" required><br>
+	  
     <p>Gender</p>
     <input id ="gender_m" name="gender" type="Radio" value="male"  required>
 	  <label for="gender-m">Male</label>
-	  <input id ="gender_f" name="gender" type="Radio"  required>
+	  <input id ="gender_f" name="gender" type="Radio"  value="female" required>
 	  <label for="gender-f">Female</label><br><br>
 	  
-
-    <label for="cars">Car Brands</label><br>
-    <input id ="cars" type="Select" placeholder="--Please choose an option--" required><br>
+<label for="cars">Car Brands</label>
+		<select id="cars">
+			<option> audi</option>
+			<option>bmw</option>
+			<option>ferrari</option>
+			<option>alto</option>
+		</select>
+		<br><br
 
     <label for="age">Age</label><br>
     <input id ="age" type="Number" placeholder="Age" required><br>
